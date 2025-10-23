@@ -1,16 +1,64 @@
-# React + Vite
+# 🌍 Countries API Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/Diwaker-kanojia/countries_api)  
+[![React](https://img.shields.io/badge/React-18-blue?logo=react&logoColor=white)](https://reactjs.org/)  
+[![Vite](https://img.shields.io/badge/Vite-3-orange?logo=vite)](https://vitejs.dev/)  
+[![Axios](https://img.shields.io/badge/Axios-ff69b4?logo=axios&logoColor=white)](https://axios-http.com/)  
 
-Currently, two official plugins are available:
+A responsive **React.js** application 🌐 that lets users explore countries around the world using the **REST Countries API**. Includes search, region filter, detailed country pages, dark mode, and responsive design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[🚀 Live Demo](https://countries-api-six-gamma.vercel.app/)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🔎 **Search**: Search for countries by name dynamically  
+- 🌎 **Filter**: Filter countries by region  
+- 📄 **Detailed Country View**: View population, native name, currencies, languages, borders, and flags  
+- 🧭 **Border Country Navigation**: Click bordering countries to explore them  
+- 🌓 **Dark Mode**: Toggle light/dark themes, saved in local storage  
+- ⚡ **Shimmer Loading Placeholders**: Smooth loading experience  
+- 📱 **Responsive Design**: Works on mobile, tablet, and desktop  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🛠️ Tech Stack
+
+| Feature         | Technology                  |
+|-----------------|----------------------------|
+| ⚛️ Framework     | React                      |
+| 🔗 Routing       | React Router DOM           |
+| 📡 HTTP Client   | Axios                      |
+| 💻 Styling       | Plain CSS (with CSS Variables for theming) |
+| 🛠 Build Tool     | Vite                       |
+| ✅ Linting       | ESLint                     |
+
+
+## 🖼 Screenshots
+![User Interface](src/assets/userInterface.png)
+
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js ≥ 16  
+- npm or yarn  
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/diwaker-kanojia/countries_api.git
+
+# Navigate to project folder
+cd countries_api
+
+# Install dependencies
+npm install
+
+
+
+
+
+
+
